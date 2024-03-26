@@ -47,7 +47,7 @@
    .banner{
     display: flex;
     align-items: center;
-    margin: 0px, 200px;
+    margin: 40px, 400px;
     justify-content: space-around;
    }
    
@@ -112,4 +112,26 @@ section{
   font-weight: 700;
   font-size: 20px;
   color: #5c3838;
+} 
+
+/* What i do styles */
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 40px;
+}
+.skill-title{
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description{
+  color: #757575;
 }
