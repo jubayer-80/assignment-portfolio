@@ -164,3 +164,28 @@ section{
   margin-top: 60px;
   text-align: center;
 }
+/* contact style */
+.contact{
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+  background: khaki;
+} 
+.contact .section-title{
+  text-align: left;
+} 
+.contact input[type="text"],[type="email"], textarea{
+  margin-bottom: 25px; border: 0; width: 100%;
+  padding: 18px 30px;
+}
+input{
+  height: 64px;
+  
+}
+.contact a{
+   text-decoration: none;
+}
+footer{
+  text-align: center;
+  background-color: green;
+}
